@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Small web server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ka1zersose/HelloWebServer.git"
+  },
+  "author": "kaizer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ka1zersose/HelloWebServer/issues"
+  },
+  "homepage": "https://github.com/ka1zersose/HelloWebServer#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

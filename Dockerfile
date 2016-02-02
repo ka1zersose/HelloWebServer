@@ -9,6 +9,8 @@ WORKDIR /usr/src/hellowordapp
 
 # Install app dependencies
 COPY package.json /usr/src/hellowordapp/
+RUN npm config set proxy http://web-proxy.il.hpecorp.net:8080
+RUN npm config set https-proxy http://web-proxy.il.hpecorp.net:8080
 RUN npm install
 
 # Bundle app source

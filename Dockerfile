@@ -1,4 +1,4 @@
-FROM node:argon
+FROM mhart/alpine-node
 
 ARG http_proxy
 ARG https_proxy

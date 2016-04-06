@@ -1,6 +1,6 @@
 {
   "name": "hellokukarekumamamia",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small web server",
   "main": "app.js",
   "scripts": {
